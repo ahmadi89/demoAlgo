@@ -45,13 +45,7 @@ public class Justificatif {
 			ligne[i] = '*';	
 
 
-		// 			répéter
-		//          	afficher 1 mot
-		//				si pas le dernier mot alors afficher 1 séparateur :
-		// 					si n espaces restants (reliquat) >> ajouter 1 espace aux n premiers séparateurs 	
-		// 					-----mot1*******$mot2*******$mot3*******mot4*******mot5-----
-		//			tant que mots à afficher
-
+		
 		//    7.3 - afficher la marge droite
 		phraseJustification.justificationPhrase(phrase, ligne, tailleSeparateur, reliquat);
 		
